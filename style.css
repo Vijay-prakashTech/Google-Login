@@ -1,0 +1,89 @@
+body {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 50px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+.conatainar {
+  box-shadow: 0px 0px 2px 0px;
+  padding: 89px 30px;
+  border-radius: 10px;
+}
+.header-logo {
+  text-align: center;
+  margin-top: -57px;
+}
+.head-text {
+  text-align: center;
+  margin-top: -18px;
+  
+}
+.input {
+  color: blue;
+}
+.input fieldset {
+  border: 2px solid #0000ffab;
+  padding: 10px 10px;
+  margin-bottom: 12px;
+}
+.input fieldset input {
+  border: 2px solid transparent;
+  border-left: 2px solid blue;
+  outline: none;
+  color: black;
+  height: 21px;
+  inset-inline-start: 10px;
+  width: 100%;
+  padding: 0px 0px;
+  margin-top: -2px;
+}
+.input fieldset input:hover {
+  border-left: transparent;
+}
+.conatainar a {
+  text-decoration: none;
+  font-weight: bold;  
+  color: #0000ffab;
+
+}
+.sub-links-text p {
+  margin-bottom: 3px;
+}
+.link-btn {
+  margin-top: 32px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.link-btn .submit {
+  padding: 9px 26px;
+  background: royalblue;
+  color: white;
+  border: 1px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.link-btn .submit:hover {
+  background: rgb(47, 47, 177);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.footer a {
+  color: grey;
+  text-decoration: none;
+  padding: 8px;
+}
+.translator select {
+  border: 1px;
+  margin-right: 12px;
+  color: darkslategrey;
+  cursor: pointer;
+}
